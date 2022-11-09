@@ -7,7 +7,7 @@ from pygame import mixer
 mixer.init()
 mixer.music.load('bg_music.mp3')
 
-mixer.music.play()
+mixer.music.play(-1)
 nums_ratio = 1
 letters = string.ascii_uppercase
 letters_ratio = 2
